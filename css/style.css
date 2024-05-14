@@ -22,11 +22,22 @@
    
 }
 body {
-    
-    
-    position: relative;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ position: relative; 
    
 }
+ 
+ /* scrollbar css */
+ ::-webkit-scrollbar{
+    width: 10px; 
+   }
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--yellow);
+} 
 
 header {
     display: flex;
@@ -78,11 +89,16 @@ color: var(--muted);
 }
 
 
-
+.menu button a{
+    color:#ffffff;
+}
+#divbutton{
+    display: flex;
+}
 
 .menu button {
  background-color: var(--lightprimary);
-    color: white;
+    /* color: white; */
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -102,6 +118,7 @@ width: 100%;
    
     
 }
+
 section{
     /* margin-top: 50px; */
 }
@@ -199,7 +216,7 @@ section{
 .bleu{
     padding: 0 28px;
     background-color: #0056b3;
-    position: absolute;
+   
     left: 0;
     right: 0;
     
@@ -241,11 +258,96 @@ section{
     border-radius: 10px;
     margin-bottom: 35px;
     transition: 0.5s;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);}
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.services .rdv p{
+    margin-top: 5px;
+}
 
     /* 3EME SECTION--------------------------- */
-    .sectiontrois{
-        margin-top: 300px;
+#sectiontrois{
+    display: flex;
+}
+#sectiontrois .medecin{
+width: 50%;
+padding: 50px 0 50px 50px;
+background:var(--whiteBG) ;
+border-radius: 0 0 70px 0;
+
+}
+
+.contentlist{
+    display: flex;
+    justify-content: center;
+    margin-right: 200px;
+
+}
+.list{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    /* text-align: center; */
+}
+.shield img{
+       
+     margin-bottom: -10px; 
+    padding-top: 18px;
+    padding-left: 15px;
+
+     
+    
+}
+.list P{
+    margin-bottom: 10px;
+}
+.premlist{
+    margin-right: 50px;
+}
+.deulist{
+   
+margin-left: 50px;
+}
+.provide{
+    font-size: 30px;   
+    margin-right: -40%; 
+   
+    margin-left: 180px;
+   margin-top: 10px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     /* .sectiontrois{
+        margin-top: 251px;
         display: flex;
         justify-content: space-between;
         justify-content: center;
@@ -256,14 +358,17 @@ section{
     }
     .list{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-between; */
        /* transform: translate(-50%, 50%);
-       margin-right: 450px; */
+       margin-right: 450px; 
        top: 20px;
       margin-bottom: 80px;
       margin-left: 25px;
     margin-top: 25px;
       
+    }
+    .list P{
+        margin-bottom: 10px;
     }
     .deulist{
        
@@ -278,18 +383,19 @@ section{
         
     }
 
-.medecin{
-   
-        height: 500px;
+     .medecin {
+        height: 450px;
         width: 600px;
-        top: 0;
+        margin-right: 415px;
+        background: var(--whiteBG);
+        border-radius: 20px;
     }
 
     .medecin img{
-        margin-top: -10%;
+        margin-top: 10%;
         background-color: var(--whiteBG);
         /* margin-top: -10px;  */
-        top: 0;
+        /* top: 0;
         margin-right: 50px;
         border-radius: 20px;
         background-size: 100%;
@@ -299,47 +405,61 @@ section{
     }
 .provide{
        
-        margin-right: -40%;
-        position: absolute;
+        margin-right: -40%; 
+        /* position: absolute; */
         /* left: 70%;*/
-      
+      /* margin-top: 10px; */
          
        
-    }
+    
      /* css makes ............*/
 .makes{
     /* margin-bottom: 50%; */
         display: flex;
         justify-content: space-between;
-        padding: 0 40px;
+        padding: 0 40px
+}
+.makes h2{
+     margin-top: 100px; 
 }
 
 .makes h2 span{
     color: var(--yellow);
 }
 .makes h1{
-    padding-top: 50px;
+    padding-top: 95px;
 }
-.lignehr{
-        display: flex;
-        flex-direction: column;
-}
+ /* .lignehr{
+          display: flex;   
+        justify-content: space-between;
+         margin-bottom: 100px; 
+}     */
  .lignehr h2{
         padding: 0 40px;
         margin-top: 20px;
         font-weight: bold;
         font-size: 40px;
-     } 
+       
+     }
+     
+      
+     
+
+    #bare{
+        margin: 0 48px;
+    }
+
+     
 .lignehr span{
     color: #ffd700;
 }
 
-      #diagnos{
+ #diagnos{
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        /* background-color: rgba(0,0,0,0.05); */
+         /* background-color: rgba(0,0,0,0.05); */
         padding: 50px 10px;
       }
       .diagnosti{
@@ -442,6 +562,14 @@ section{
         font-weight: bold;
         margin-left: 6px;
      }
+     #hr{
+        width: 100%;
+     }
+     .story {
+        width: 80%;
+       
+    }
+    
     .right1{
         background-color: var(--whiteBG);
        margin-right: 150px;
