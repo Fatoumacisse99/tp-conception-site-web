@@ -313,13 +313,7 @@ section{
         justify-content: space-between;
         padding: 0 40px;
 }
-.makes h2{
-    margin-right: 90px;
-    margin-top: 20px;
-    position: absolute;
-    right: 0;
-    
-}
+
 .makes h2 span{
     color: var(--yellow);
 }
@@ -330,21 +324,16 @@ section{
         display: flex;
         flex-direction: column;
 }
-.lignehr h2{
+ .lignehr h2{
         padding: 0 40px;
         margin-top: 20px;
         font-weight: bold;
         font-size: 40px;
-     }
+     } 
 .lignehr span{
     color: #ffd700;
 }
- hr{
-        margin-left: 130px;
-        margin-right: 130px;
-        margin-bottom: 100px;
-        margin-top: -10px;
-      }
+
       #diagnos{
         display: flex;
         align-items: center;
@@ -436,13 +425,6 @@ section{
     .story span{
         color: var(--yellow);
     }
-     hr{
-        position: absolute;
-        left: 0;
-        right:0;
-        margin-top: 50px;
-        width: 70%;
-    }
     .history{
         font-weight: bold;
         font-size: 20px;
@@ -485,9 +467,6 @@ section{
      .contsection{
         background-color: var(--whiteBG);
      }
-
-     
-
      .container{
         display: flex;
         justify-content: space-evenly;
