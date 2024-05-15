@@ -24,20 +24,20 @@
 body {
     overflow-x: hidden;
     display: flex;
-    flex-direction: column;
+     flex-direction: column; 
     justify-content: center;
- position: relative; 
+ /* position: relative;  */
    
 }
  
  /* scrollbar css */
- ::-webkit-scrollbar{
-    width: 10px; 
-   }
+  ::-webkit-scrollbar{
+    width: 8px; 
+   } 
 
 ::-webkit-scrollbar-thumb{
     background-color: var(--yellow);
-} 
+}  
 
 header {
     display: flex;
@@ -447,7 +447,10 @@ margin-left: 50px;
 
     #bare{
         margin: 0 48px;
-    }
+        margin-left: 200px;
+    margin-top: -15px;
+}
+    
 
      
 .lignehr span{
@@ -481,19 +484,25 @@ margin-left: 50px;
         margin-bottom: 35px;
         transition: 0.5s;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        /* line-height: 2; */
     }
     .diagnosti .diagnostic img{
        width: 100px;
        height: 80px;
-       margin-bottom: 15px;
+       margin-bottom: 30px;
+
     
     }
     .diagnosti .diagnostic h1{
         text-align: center;
         font-size: 18px;
+        margin-bottom: 15px;
     
     }
     .diagnosti .diagnostic h1{
+        text-align: center;
+    }
+    .diagnosti P{
         text-align: center;
     }
     .blue2{
@@ -645,7 +654,11 @@ margin-left: 50px;
        
      }
      #about-us .dame{
-        
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
      }
      #about-us .content-about{
         display: flex;
@@ -664,17 +677,14 @@ margin-left: 50px;
      }
      #about-us .dame{
         background-color: var(--white);
-        height: 350px;
-        width: 320px;
-        padding-left: 55px;
-        padding-top: 35px;  
-        margin-left: 100px;
+        height: 300px;
+        width: 280px;
+        margin-left: 50px; 
      }
      .dame h1{
         text-align: center;
-        padding-right: 60px;
         padding-top: 10px;
-        margin-bottom: 35px;
+
         
      }
      .mini-desc P{
@@ -877,12 +887,7 @@ margin-left: 50px;
 .reseau-sociaux2{
     display: flex;
     flex-direction: column;
-}
-        
-    
-        
-          
-            
+}          
 footer{
          background-color: #216583;
             height: 50px;
@@ -890,4 +895,36 @@ footer{
             justify-content: center;
             color: white;
             align-items: center;
+}
+#lignehr{
+    
+    text-align: right;
+}
+#lignehr span{
+    color: var(--yellow);
+}
+#makes {
+    margin-left:50px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+
+}
+
+#makes h2{
+    /
+}
+#makes h1{
+    /* margin-top: 100px; */
+}
+#lignehr h2{
+    text-align: left;
+    margin-left: 50px;
+    
+} 
+.contsection hr {
+    margin-left: 130px;
+    margin-top: -10px;
 }
