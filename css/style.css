@@ -128,29 +128,27 @@ section{
     align-self: center;
     place-content: center;
     margin-top: 50px;
+    margin-bottom: 50px;
     }
 #home .left {
     display: flex;
     position: relative;
     flex-direction: column;
     justify-content: center;
-   
-    top: 5px;
-    margin-left: 15px;
-} 
-     
+    top: 0px;
+    margin-left: 90px;
 
+} 
 
 #home .left p{
     font-size: 15px;
     margin-right: 15px;
     color: #999;
     margin-top: 30px;
-    word-spacing: 4px;
     line-height: 25px;
 }
     #home .left h1{
-   font-size: 45px;
+   font-size: 40px;
    font-weight: bold; 
     
     }
@@ -189,8 +187,8 @@ section{
 }
 
 #home .right img {
-    width: 85%;
-    height: 90%;
+    width: 70%;
+    height: 75%;
     margin-right: 20px;
     animation: animate 2s linear;
     transition: 0.5s;
@@ -204,10 +202,11 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0;  
+    margin: 0;
 }
 .services .texte{
     color: var(--white) ;
+    margin-left: 50px;
 }
 .texte h2{
     margin-bottom: 20px;
@@ -241,14 +240,14 @@ section{
         align-self: center; /* Centre l'élément .ordonner verticalement */
         padding-top: 25px;
         border-radius: 20px;
-        
+        width: 50%;
    
 
     
 }
 .services .rdv{
-    height: 160px;
-    width: 200px;
+    height: 100px;
+    width: 140px;
     background-color: white;
     padding: 25px;
     display: flex;
@@ -317,101 +316,6 @@ margin-left: 50px;
    
     margin-left: 180px;
    margin-top: 10px; }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     /* .sectiontrois{
-        margin-top: 251px;
-        display: flex;
-        justify-content: space-between;
-        justify-content: center;
-        height: 400px;
-       
-
-        
-    }
-    .list{
-        display: flex;
-        justify-content: space-between; */
-       /* transform: translate(-50%, 50%);
-       margin-right: 450px; 
-       top: 20px;
-      margin-bottom: 80px;
-      margin-left: 25px;
-    margin-top: 25px;
-      
-    }
-    .list P{
-        margin-bottom: 10px;
-    }
-    .deulist{
-       
-    margin-left: 50px;
-    }
-    .shield img{
-       
-        margin-bottom: -10px;
-        padding-top: 18px;
-        padding-left: 15px;
-         
-        
-    }
-
-     .medecin {
-        height: 450px;
-        width: 600px;
-        margin-right: 415px;
-        background: var(--whiteBG);
-        border-radius: 20px;
-    }
-
-    .medecin img{
-        margin-top: 10%;
-        background-color: var(--whiteBG);
-        /* margin-top: -10px;  */
-        /* top: 0;
-        margin-right: 50px;
-        border-radius: 20px;
-        background-size: 100%;
-        
-        
-        
-    }
-.provide{
-       
-        margin-right: -40%; 
-        /* position: absolute; */
-        /* left: 70%;*/
-      /* margin-top: 10px; */
-         
-       
-    
      /* css makes ............*/
 .makes{
     /* margin-bottom: 50%; */
@@ -429,49 +333,39 @@ margin-left: 50px;
 .makes h1{
     padding-top: 95px;
 }
- /* .lignehr{
-          display: flex;   
-        justify-content: space-between;
-         margin-bottom: 100px; 
-}     */
- .lignehr h2{
+
+.lignehr h2{
         padding: 0 40px;
         margin-top: 20px;
         font-weight: bold;
         font-size: 40px;
+        margin-top: -10px;
        
-     }
-     
-      
-     
-
-    #bare{
+}
+#bare{
         margin: 0 48px;
         margin-left: 200px;
-    margin-top: -15px;
-}
-    
-
-     
+        margin-top: -17px;
+}     
 .lignehr span{
-    color: #ffd700;
+         color: #ffd700;
 }
 
- #diagnos{
+#diagnos{
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
         flex-direction: column;
          /* background-color: rgba(0,0,0,0.05); */
         padding: 50px 10px;
-      }
-      .diagnosti{
+}
+.diagnosti{
         display: flex;
         flex-wrap: wrap;
-        width: 70%;
-        justify-content: space-around;
-    }
-    .diagnosti .diagnostic{
+        width: 80%;
+        justify-content: space-between;
+}
+.diagnosti .diagnostic{
         height: 280px;
         width: 300px;
         background-color: var(--whiteBG);
@@ -485,27 +379,25 @@ margin-left: 50px;
         transition: 0.5s;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         /* line-height: 2; */
-    }
-    .diagnosti .diagnostic img{
+}
+.diagnosti .diagnostic img{
        width: 100px;
        height: 80px;
-       margin-bottom: 30px;
-
-    
-    }
-    .diagnosti .diagnostic h1{
+       margin-bottom: 30px;   
+}
+.diagnosti .diagnostic h1{
         text-align: center;
         font-size: 18px;
         margin-bottom: 15px;
     
-    }
-    .diagnosti .diagnostic h1{
+}
+.diagnosti .diagnostic h1{
         text-align: center;
-    }
-    .diagnosti P{
+}
+.diagnosti P{
         text-align: center;
-    }
-    .blue2{
+}
+.blue2{
         text-align: center;
         background-color: var(--primary);
         padding: 0 100px;
@@ -514,29 +406,24 @@ margin-left: 50px;
        color: #f8fAfc;
        line-height: 20px;
 
-       align-items: center;}
-
-    .blue22{
+       align-items: center;
+}
+.blue22{
         align-items: center;
         padding-top: 100px;
-        line-height: 30px;
-    
-    
-        
-    }
-
-
-    .blue22 h2 {
+        line-height: 30px;       
+}
+.blue22 h2 {
         margin-bottom: 30px;
         font-size: 28px;
-    }
-    .blue22 h2 span{
+}
+.blue22 h2 span{
         font-size: 40px;
-    } 
-    .blue2 p{
+} 
+.blue2 p{
         margin-bottom: 25px;
-    }
-    .blue2 button{
+}
+.blue2 button{
         margin: 0;
         padding: 15px 40px;
         background-color: var(--primary);
@@ -544,115 +431,129 @@ margin-left: 50px;
         border-color: var(--white);
         color: var(--white);
         top: 0;  
-     }
-    .histories{
+}
+.histories{
         display: flex;
         justify-content: space-between;
         margin-top: 100px;
         padding: 0 120px;
-    }
-    .story span{
+}
+.story span{
         color: var(--yellow);
-    }
-    .history{
+}
+.history{
         font-weight: bold;
         font-size: 20px;
-    }
-   
-    .stories{
+}
+.stories{
          display: flex;
         justify-content: space-between;
          margin: 100px;
         letter-spacing: 1px;   
-    }
-     .story h1{
+}
+.story h1{
         margin-top: 15px;
         font-size: 30px;
         font-weight: bold;
         margin-left: 6px;
-     }
-     #hr{
+}
+#hr{
         width: 100%;
-     }
-     .story {
+}
+.story {
         width: 80%;
-       
-    }
+}
     
-    .right1{
+.right1{
         background-color: var(--whiteBG);
        margin-right: 150px;
        border-radius: 15px;
        padding:50px;     
-    }
-    .right1 h1{
+}
+.right1 h1{
         margin-bottom: 20px;
         font-size: 25px;
-    }
-    .right1 p{
+}
+.right1 p{
         line-height: 20px;
        font-weight: lighter;
-       color: #777777;
-      
-    }
+       color: #777777;      
+}
      /* css /container ::::::::::::::*/
 
-     .meet{
+.meet{
         display: flex;
         justify-content: space-between;
-     }
-     .contsection{
+}
+.contsection{
         background-color: var(--whiteBG);
-     }
-     .container{
+}
+.container{
         display: flex;
         justify-content: space-evenly;
         margin-top: 150px;
         align-items: center;
         
-     }
-     .cadre{
+}
+#makes h2 span{
+        color: var(--yellow);
+}
+#makes h2{
+    margin-right: 70px;
+}
+#makes h1{
+         /* margin-top: 100px; */
+}
+#lignehr h2{
+         text-align: left;
+              margin-left: 50px;        
+} 
+div .lignehr{
+    margin-bottom: 30px;
+} 
+.contsection hr {
+         margin-left: 130px;
+         margin-top: -10px;
+         margin-right: 70px;
+}
+.cadre{
         text-align: center;
         line-height: normal;
         margin-bottom: 150px;
 
-     } 
+} 
 
      .cadre button .button {
         color: #007bff;
 
-     }
-     a{
+}
+a{
         text-decoration: none;
         
-     }
-     .button a{
+}
+.button a{
         color: var(--lightprimary);
-     }
-     .cadre h1{
+}
+.cadre h1{
         margin-top: 15px;
     
-     }
+}
      .cadre p {
         margin-top: 15px;
        
-     }
-    .cadre button{
+}
+.cadre button{
         padding: 10px 25px;
         margin-top: 15px;
         border-radius: 10px;
         border: 1px solid var(--primary);
         background-color: #f8fAfc;
-
-
-     }
+}
 
      /*::::::: :::::::css about us :::::::::::::::::::::::::*/
-     #about-us{
-        background-color: var(--primary);
-        
-       
-     }
+#about-us{
+        background-color: var(--primary);       
+}
      #about-us .dame{
         border-radius: 15px;
         display: flex;
@@ -704,17 +605,19 @@ margin-left: 50px;
      }
      input{
         padding: 10px 25px;
-       margin:20px;
+       margin: 5px 20px;
         border-radius: 8px;
         border-color: var(--silver);
+        width: 250px;
 
      }
      select{
         padding: 10px 30px;
         border-radius: 8px;
-        margin-top: 20px;
+        margin: 5px 20px;
         border-color: var(--silver);
-        margin-right: 25px;
+        margin-right: 22px;
+        width: 250px;
 
 
      }
@@ -725,10 +628,21 @@ margin-left: 50px;
      .boite-left{
         display: flex;
         justify-content: space-between;
+      
      }
      .boite-right{
         display: flex;
         justify-content: space-between;
+     
+
+     }
+     #remember {
+        margin: 0;
+        padding: 0;
+        width: 50px;
+        margin-left: 10px;
+        margin-right: -10px;
+        margin-bottom: 10px;
 
      }
      #form {
@@ -746,42 +660,44 @@ margin-left: 50px;
             top: 0;
             margin-bottom: 200px;
             margin-left: 25px;
-           
-            
-           
-          
-            
+         
            }
 
-           #form .corps-formulaire .boite {
+        #form .corps-formulaire .boite {
             position: relative;
             margin-top: 20px;
             display: flex;
             flex-direction: column;
         }
-         textarea{ 
+        textarea{ 
             margin-top: 30px;
-            width: 100%;
+            width: 97%;
            padding: 10px;
-           
            border: 2px solid var(--silver);
            outline-color:var(--primary);
            border-radius: 5px;
            resize: none;
-           padding: 50px;
-           height: 3%;} 
+           /* padding: 50px; */
+           height: 150px;
+           margin-bottom: 20px;
+          
+        } 
+        div .message{
+            margin-left: 25px;
+        }
 
-           #bouton{
+         #bouton{
             background-color: var(--primary);
             color: white;
             margin-top: 10px;
             border-radius: 5px;
             font-size: 15PX;
             border:none;
-            padding: 10px 20px;
-            width: 100%;
+            padding: 10px 20px; 
+            width: 92%;
             cursor: pointer;
-        }
+            margin-left: 25px;
+        }  
         #form  button :hover{
             transform: scale(1.05);
         }
@@ -803,7 +719,7 @@ margin-left: 50px;
              border-radius: 15px;
         
         }
-         .inputclass{
+        .inputclass{
             display: flex;
             justify-content: center;
             margin-right: 0px;
@@ -812,21 +728,25 @@ margin-left: 50px;
             
         }
         #form1 .inputclass input{
-            background-color: var(--silver);
+             background-color: var(--silver); 
+          
            
 
         }
          #form1 .inputclasse .put{
             padding: 10px 20px;   
-           background: var(--primary);
+            background: var(--primary); 
           
         }
          #form1 button {
-            padding: 10px 35px;
-            border-radius: 8px;
+            padding: 10px 30px;
+            border-radius: 8px 8px 8px 8px;
+            border : navajowhite;
+            width: 200px;
+           
             
         }
-         .subscribe #form1 h2{
+        .subscribe #form1 h2{
             display: flex;
             justify-content: center;
             color: white;
@@ -913,18 +833,3 @@ footer{
 
 }
 
-#makes h2{
-    /
-}
-#makes h1{
-    /* margin-top: 100px; */
-}
-#lignehr h2{
-    text-align: left;
-    margin-left: 50px;
-    
-} 
-.contsection hr {
-    margin-left: 130px;
-    margin-top: -10px;
-}
