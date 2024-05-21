@@ -22,11 +22,12 @@
    
 }
 body {
-    overflow-x: hidden;
-    display: flex;
-     flex-direction: column; 
-    justify-content: center;
- /* position: relative;  */
+      overflow-x: hidden 
+   /* margin-top: 20px;
+     display: flex; 
+      flex-direction: column;  
+     justify-content: center;
+  position: relative;   */
    
 }
  
@@ -44,17 +45,23 @@ header {
     justify-content: space-between;
     align-items: center; 
     background-color: white;
-    margin: 0;
+    
     flex-wrap: wrap;  
     width: 100%; 
-    padding: 0 10%;
+    padding: 0 70px 0 70px;
+    margin-top: 10px;
+    
+    
+}
+.branding .logo img{
+    width: 170px;
     
 }
 .branding {
     display: flex;
     align-items: center;
-    margin: 40px;
-  place-content: center; 
+    margin: 10px 0 10px 0;
+    place-content: center; 
     justify-content: space-between;
     
 }
@@ -64,6 +71,8 @@ header {
     font-size: 15px;
     justify-content: space-between;
     place-content: center;
+    margin-left: 520px;
+    margin-top: -10px;
     
     
 
@@ -89,39 +98,34 @@ color: var(--muted);
 }
 
 
-.menu button a{
-    color:#ffffff;
-}
+
 #divbutton{
     display: flex;
 }
 
-.menu button {
+header button {
  background-color: var(--lightprimary);
     /* color: white; */
-    padding: 10px 20px;
+    padding: 12px 28px;
     border: none;
     border-radius: 5px;
   cursor: pointer; 
     margin-right: 10px;
+    color: white;
 }
-.menu button a:hover {
+header button:hover {
   color: white;
     font-size: 15px;
 }
 header .ligne{
-width: 100%;
+    width: 1158px;
     height: 1px;
     background-color:rgb(169, 167, 172);
     /* flex-wrap: wrap; */
-    padding: 0 20px;
-   
+    
     
 }
 
-section{
-    /* margin-top: 50px; */
-}
 #home{
     display: flex;
     justify-content: space-between;
@@ -131,36 +135,36 @@ section{
     margin-bottom: 50px;
     }
 #home .left {
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    justify-content: center;
-    top: 0px;
-    margin-left: 90px;
+   margin-top: 75px;
+   margin-left: 60px;
+   width: 50%;
+   
+   
 
 } 
 
 #home .left p{
-    font-size: 15px;
+    font-size: 19px;
     margin-right: 15px;
     color: #999;
     margin-top: 30px;
     line-height: 25px;
 }
     #home .left h1{
-   font-size: 40px;
+   font-size: 50px;
    font-weight: bold; 
+   margin-top: 0;
     
     }
     #home .left button:nth-of-type(2) a {
         color: var(--muted);
     }
 #home .left button {
-     margin-top: 22px;
-     width: fit-content;
+     margin-top: 55px;
+    
      padding: 15px 35px;
      border: 10px;
-     transition: 0.5s;
+     width: 170px;
      position: relative;
      cursor: pointer;
      margin-right: 20px;
@@ -187,13 +191,12 @@ section{
 }
 
 #home .right img {
-    width: 70%;
-    height: 75%;
-    margin-right: 20px;
-    animation: animate 2s linear;
-    transition: 0.5s;
+    width: 90%;
+    /* margin-left:20px ; */
+    margin-right: 50px;
+   
+   
     }
-
 
     .left span{
         color: var(--yellow);
@@ -207,27 +210,31 @@ section{
 .services .texte{
     color: var(--white) ;
     margin-left: 50px;
+    
+}
+.texte p{
+    font-size: 22px;
 }
 .texte h2{
     margin-bottom: 20px;
+    font-size: 33px;
 }
 
 .bleu{
     padding: 0 28px;
     background-color: #0056b3;
-   
-    left: 0;
-    right: 0;
+   padding-top: 25px;
+   padding-bottom: 25px;
     
 }
-.rdv{
+/* .rdv{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column; 
    
 
-} 
+}  */
 .ordonner{
 
         display: flex;
@@ -246,7 +253,7 @@ section{
     
 }
 .services .rdv{
-    height: 100px;
+    height: 120px;
     width: 140px;
     background-color: white;
     padding: 25px;
@@ -256,13 +263,16 @@ section{
     flex-direction: column;
     border-radius: 10px;
     margin-bottom: 35px;
-    transition: 0.5s;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    margin-left: 10px;
 }
-
+.services .rdv img{
+    width: 35px;
+}
 .services .rdv p{
-    margin-top: 5px;
+    margin-top: 15px;
+    font-weight: 400;
 }
 
     /* 3EME SECTION--------------------------- */
@@ -270,7 +280,7 @@ section{
     display: flex;
 }
 #sectiontrois .medecin{
-width: 50%;
+width: 42%;
 padding: 50px 0 50px 50px;
 background:var(--whiteBG) ;
 border-radius: 0 0 70px 0;
@@ -284,15 +294,19 @@ border-radius: 0 0 70px 0;
 
 }
 .list{
-    width: 50%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-self: center;
     /* text-align: center; */
 }
+.shield{
+   width: 100%;
+    margin-left: 60px;
+}
 .shield img{
-       
+       margin-right: 15px;
      margin-bottom: -10px; 
     padding-top: 18px;
     padding-left: 15px;
@@ -300,8 +314,15 @@ border-radius: 0 0 70px 0;
      
     
 }
+#sectiontrois .list h2{
+    font-size: 23px;
+    font-weight: 500;
+    margin-left: 250px;
+}
 .list P{
     margin-bottom: 10px;
+    font-size: 20px;
+  
 }
 .premlist{
     margin-right: 50px;
@@ -325,6 +346,9 @@ margin-left: 50px;
 }
 .makes h2{
      margin-top: 100px; 
+     font-size: 35px;
+     margin-right: 55px;
+
 }
 
 .makes h2 span{
@@ -332,7 +356,14 @@ margin-left: 50px;
 }
 .makes h1{
     padding-top: 95px;
+    font-size: 40px;
+    margin-left: 60px;
 }
+.lignehr{
+margin-right: 50px;
+margin-left: 60px;
+}
+
 
 .lignehr h2{
         padding: 0 40px;
@@ -360,6 +391,9 @@ margin-left: 50px;
         padding: 50px 10px;
 }
 .diagnosti{
+    margin-top: 30px;
+    
+   
         display: flex;
         flex-wrap: wrap;
         width: 80%;
@@ -369,21 +403,24 @@ margin-left: 50px;
         height: 280px;
         width: 300px;
         background-color: var(--whiteBG);
-        padding: 25px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
+         
+         padding-top: 30px;
+         padding-bottom: 90px;
+        display: block;
+       
         border-radius: 6px;
-        margin-bottom: 35px;
-        transition: 0.5s;
+        margin-bottom: 60px;
+      
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         /* line-height: 2; */
 }
 .diagnosti .diagnostic img{
        width: 100px;
        height: 80px;
-       margin-bottom: 30px;   
+       margin-bottom: 30px;  
+        align-items: center;
+        align-content: center;
+        margin-left: 100px;
 }
 .diagnosti .diagnostic h1{
         text-align: center;
@@ -396,6 +433,9 @@ margin-left: 50px;
 }
 .diagnosti P{
         text-align: center;
+        font-size: 15px;
+        width: 100%;
+       
 }
 .blue2{
         text-align: center;
@@ -448,8 +488,11 @@ margin-left: 50px;
 .stories{
          display: flex;
         justify-content: space-between;
-         margin: 100px;
+         margin:50px 100px 0 100px;
         letter-spacing: 1px;   
+}
+.stories .left img{
+    width: 350px;
 }
 .story h1{
         margin-top: 15px;
@@ -468,7 +511,8 @@ margin-left: 50px;
         background-color: var(--whiteBG);
        margin-right: 150px;
        border-radius: 15px;
-       padding:50px;     
+       padding:50px; 
+       height: 250px;    
 }
 .right1 h1{
         margin-bottom: 20px;
@@ -487,6 +531,9 @@ margin-left: 50px;
 }
 .contsection{
         background-color: var(--whiteBG);
+        padding-top: 1px;
+        margin-top: 70px;
+
 }
 .container{
         display: flex;
@@ -500,19 +547,22 @@ margin-left: 50px;
 }
 #makes h2{
     margin-right: 70px;
+    font-size: 30px;
 }
 #makes h1{
+    font-size: 30px;
          /* margin-top: 100px; */
 }
 #lignehr h2{
-         text-align: left;
-              margin-left: 50px;        
+        text-align: left;
+        margin-left: 50px;
+        font-size: 35px;        
 } 
 div .lignehr{
     margin-bottom: 30px;
 } 
 .contsection hr {
-         margin-left: 130px;
+         margin-left: 200px;
          margin-top: -10px;
          margin-right: 70px;
 }
@@ -536,10 +586,15 @@ a{
 }
 .cadre h1{
         margin-top: 15px;
+        font-size: 17px;
     
+}
+input::placeholder{
+    color: white;
 }
      .cadre p {
         margin-top: 15px;
+        font-size: 13px;
        
 }
 .cadre button{
@@ -569,11 +624,18 @@ a{
 
         
      }
+     .subscribe{
+        
+       align-self: center;
+     
+     }
      #about-us .mini-desc{
         margin-right: 20%;
         color: var(--white);
         align-items: center;
         padding-top: 100px;
+        margin-top: -45px;
+
         
      }
      #about-us .dame{
@@ -645,6 +707,8 @@ a{
         margin-bottom: 10px;
 
      }
+     .content-picture img{
+     width: 400px;}
      #form {
        /* background-color: #007bff; */
         
@@ -706,6 +770,8 @@ a{
             display: flex;
             justify-content: center;
             align-items: center;
+           
+          
    
         }
         .subscribe #form1{
@@ -713,10 +779,12 @@ a{
             display: flex;
             justify-content: space-evenly;
             margin: 100px;
-            height: 200px;
+            height: 230px;
             flex-direction: column;
-             padding: 20px 250px; 
+             padding: 10px 140px; 
              border-radius: 15px;
+             padding-bottom: 30px;
+
         
         }
         .inputclass{
