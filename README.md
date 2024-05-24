@@ -10,7 +10,7 @@ Ce projet consiste a l'integration d'une maquette de site web pour un cabinet de
 ## Structure du Projet
 
 Le projet est organisé comme suit :
-**index.html**: Ce fichier contient la structure HTML de la page du site web. Il inclut des sections telles que header,home, les informations sur le cabinet, les services offerts, etc.
+**index.html**: Ce fichier contient la structure HTML de la page du site web. Il inclut des sections telles que header,home,     n les informations sur le cabinet, les services offerts, etc.
 
 **css** : Ce répertoire contient les fichiers de style CSS pour personnaliser l'apparence du site web.
 

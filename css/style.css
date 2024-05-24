@@ -22,7 +22,7 @@
    
 }
 body {
-      overflow-x: hidden 
+       overflow-x: hidden  
    /* margin-top: 20px;
      display: flex; 
       flex-direction: column;  
@@ -468,7 +468,7 @@ margin-left: 60px;
         padding: 15px 40px;
         background-color: var(--primary);
         border-radius: 10px;
-        border-color: var(--white);
+        border: 1px solid white;
         color: var(--white);
         top: 0;  
 }
@@ -589,7 +589,10 @@ a{
         font-size: 17px;
     
 }
-input::placeholder{
+.cadre p {
+color: #777777;
+}
+#form1 input::placeholder{
     color: white;
 }
      .cadre p {
@@ -603,6 +606,7 @@ input::placeholder{
         border-radius: 10px;
         border: 1px solid var(--primary);
         background-color: #f8fAfc;
+        color: #007bff;
 }
 
      /*::::::: :::::::css about us :::::::::::::::::::::::::*/
@@ -680,9 +684,15 @@ input::placeholder{
         border-color: var(--silver);
         margin-right: 22px;
         width: 250px;
+        color: grey;
 
 
      }
+     #form #date{
+        color: gray;
+     }
+     
+
      label {
         margin-left: 20px;
        
@@ -692,6 +702,7 @@ input::placeholder{
         justify-content: space-between;
       
      }
+ 
      .boite-right{
         display: flex;
         justify-content: space-between;
@@ -736,19 +747,19 @@ input::placeholder{
         textarea{ 
             margin-top: 30px;
             width: 97%;
-           padding: 10px;
+           padding: 10px; 
            border: 2px solid var(--silver);
            outline-color:var(--primary);
            border-radius: 5px;
            resize: none;
-           /* padding: 50px; */
            height: 150px;
            margin-bottom: 20px;
+           margin-left: 15px;
+           margin-top: -0.1px;
+           
           
         } 
-        div .message{
-            margin-left: 25px;
-        }
+    
 
          #bouton{
             background-color: var(--primary);
