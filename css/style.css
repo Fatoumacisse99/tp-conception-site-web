@@ -23,12 +23,7 @@
 }
 body {
        overflow-x: hidden  
-   /* margin-top: 20px;
-     display: flex; 
-      flex-direction: column;  
-     justify-content: center;
-  position: relative;   */
-   
+
 }
  
  /* scrollbar css */
@@ -177,7 +172,7 @@ header .ligne{
     #home .left button:nth-of-type(2) {
         background-color: white;
         border: 2px solid #ccc;
-        color: #ccc;}
+        color: gray;}
 
 
     .left button a{
@@ -383,37 +378,28 @@ margin-left: 60px;
 }
 
 #diagnos{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-direction: column;
-         /* background-color: rgba(0,0,0,0.05); */
-        padding: 50px 10px;
+    padding-left: 10%;
+     margin-top: 10%; 
+
+        
 }
 .diagnosti{
-    margin-top: 30px;
-    
-   
-        display: flex;
-        flex-wrap: wrap;
-        width: 80%;
-        justify-content: space-between;
+    width: 100%;
+    display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr) ;
+    align-items: stretch; 
 }
 .diagnosti .diagnostic{
         height: 280px;
         width: 300px;
         background-color: var(--whiteBG);
-         
-         padding-top: 30px;
-         padding-bottom: 90px;
-        display: block;
-       
         border-radius: 6px;
-        margin-bottom: 60px;
-      
+         margin-bottom: 60px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        /* line-height: 2; */
+        
 }
+
 .diagnosti .diagnostic img{
        width: 100px;
        height: 80px;
@@ -450,7 +436,7 @@ margin-left: 60px;
 }
 .blue22{
         align-items: center;
-        padding-top: 100px;
+         padding-top: 100px; 
         line-height: 30px;       
 }
 .blue22 h2 {
@@ -792,7 +778,7 @@ color: #777777;
             margin: 100px;
             height: 230px;
             flex-direction: column;
-             padding: 10px 140px; 
+             padding: 16%; 
              border-radius: 15px;
              padding-bottom: 30px;
 
@@ -829,7 +815,7 @@ color: #777777;
             display: flex;
             justify-content: center;
             color: white;
-            margin-top: 20px;
+            margin-top: -180px;
         }
 
         /* :::::::::::::::::::::::::::dernier section:::::::::::::::::::::::::::::::::::::::::::::: */
